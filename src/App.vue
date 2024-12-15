@@ -64,7 +64,7 @@ function removerTarefa(index) {
   gap: 1rem;
   font-family: Arial, sans-serif;
   text-align: center;
-  background: linear-gradient(-135deg, #696969, #585858, #2e2e2e, #000000);
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 1), rgba(22, 22, 22, 1), rgba(0, 153, 184, 1));
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
 
@@ -153,7 +153,8 @@ button:hover {
 }
 
 .adicionar-tarefa button:hover {
-  box-shadow: 1px 1px 10px 5px rgba(255, 255, 0, 1);
+  box-shadow: 1px 1px 10px 5px rgba(0, 153, 184, 1);
+  border: 1px solid rgba(0, 153, 184, 1);
   transform: scale(1.1);
 }
 </style>
